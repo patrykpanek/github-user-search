@@ -34,7 +34,6 @@ const Repos = () => {
     .map((item) => {
       return { ...item, value: item.stars };
     });
-  console.log(mostPopular);
 
   //stars, forks
 
